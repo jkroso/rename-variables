@@ -1,0 +1,11 @@
+{
+	"name": "rename-variables",
+	"repo": "jkroso/rename-variables",
+	"description": "Safely rename JS variables",
+	"keywords": ["ast","rename","safe","variables"],
+	"dependencies": {
+    "jkroso/ast-children": "*"
+  },
+	"scripts": ["index.js"],
+	"license": "MIT"
+}

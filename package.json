@@ -1,0 +1,25 @@
+{
+  "name": "rename-variables",
+  "version": "0.1.0",
+  "description": "Safely rename JS variables",
+  "keywords": ["ast","rename","safe","variables"],
+  "dependencies": {
+    "ast-children": "*"
+  },
+  "devDependencies": {
+    "serve": "jkroso/serve",
+    "hydro-chai": "*",
+    "hydro-html": "*",
+    "hydro-bdd": "*",
+    "hydro-dot": "*",
+    "escodegen": "*",
+    "esprima": "*",
+    "hydro": "*",
+    "jsmd": "*",
+    "chai": "*"
+  },
+  "repository": "git://github.com/jkroso/rename-variables.git",
+  "author": "Jake Rosoman",
+  "files": ["index.js"],
+  "license": "MIT"
+}
