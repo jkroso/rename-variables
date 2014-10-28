@@ -29,10 +29,6 @@ function rename(node, it, to){
     case 'CatchClause':
       if (node.param.name == it) return
       return rename(node.body, it, to)
-    case 'MemberExpression':
-      rename(node.object, it, to)
-      if (node.computed) rename(node.property, it, to)
-      return
     case 'Identifier':
       return node.name == it && (node.name = to)
   }

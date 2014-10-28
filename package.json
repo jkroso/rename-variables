@@ -1,6 +1,6 @@
 {
   "name": "rename-variables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Safely rename JS variables",
   "keywords": ["ast","rename","safe","variables"],
   "dependencies": {
